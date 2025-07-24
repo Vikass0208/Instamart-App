@@ -1,0 +1,44 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo"
+    android:elevation="8dp"
+    android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="Log"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#7B3FA1"
+        android:textColor="#FFFFFF"
+        android:padding="14dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="Sign"
+        android:backgroundTint="#7B3FA1"
+        android:textColor="#FFFFFF"
+        android:padding="14dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/rounded_button" />
+</LinearLayout>
